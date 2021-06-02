@@ -85,6 +85,8 @@ public class RaftHandler implements HttpHandler {
   }
 
   private String appendEntries(JSONObject jMessage) {
+    if (jMessage.getJSONArray("logEntries").length()>0)
+      logger.log(Level.INFO, "Got an AppendEntries req: {0}", jMessage);
     AppendEntriesRequest appendReq = new AppendEntriesRequest(jMessage);
     AppendEntriesResponse appendResp = raftNode.appendEntriesService(appendReq);
     return appendResp.toJsonText();

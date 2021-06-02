@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easyraft-core/easyraft-core.iml" filepath="$PROJECT_DIR$/easyraft-core/easyraft-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyraft-example/easyraft-example.iml" filepath="$PROJECT_DIR$/easyraft-example/easyraft-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyraft-root.iml" filepath="$PROJECT_DIR$/easyraft-root.iml" />
+    </modules>
+  </component>
+</project>

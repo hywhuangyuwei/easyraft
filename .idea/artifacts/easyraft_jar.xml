@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="easyraft:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/easyraft_jar</output-path>
+    <root id="root">
+      <element id="archive" name="easyraft.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/easyraft-core/src/main/java/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="easyraft-core" />
+        <element id="module-output" name="easyraft-example" />
+      </element>
+      <element id="library" level="project" name="Maven: org.json:json:20180813" />
+    </root>
+  </artifact>
+</component>
